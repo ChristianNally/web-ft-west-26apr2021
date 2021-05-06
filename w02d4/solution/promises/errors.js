@@ -2,32 +2,32 @@ const functions = require('./promise-generator');
 
 const returnPromise = functions.returnPromise;
 const returnRejectedPromise = functions.returnRejectedPromise;
+const returnRandomPromise = functions.returnRandomPromise;
 
 // throw new Error('ooooops');
 
-returnPromise('one')
+returnRandomPromise('one')
   .then((data) => {
     console.log(data);
-    return returnPromise('two');
+    return returnRandomPromise('two');
   })
   .then((data) => {
     console.log(data);
-    return returnPromise('three');
+    return returnRandomPromise('three');
   })
   .then((data) => {
     console.log(data);
-    return returnRejectedPromise('four');
-  })
-  {}
-  .then((data) => {
-    console.log(data);
-    return returnPromise('five');
+    return returnRandomPromise('four');
   })
   .then((data) => {
     console.log(data);
-    return returnPromise('six');
+    return returnRandomPromise('five');
+  })
+  .then((data) => {
+    console.log(data);
+    return returnRandomPromise('six');
   })
   .catch((err) => {
     // throw err;
-    console.log(err);
-  })
+    console.log('err:',err);
+  });

@@ -19,6 +19,10 @@ rlp.questionAsync('What do you think of Node.js? ')
   .then((answer) => {
     answers.push(answer);
     return rlp.questionAsync('What do you listen to while doing that? ');
+  })  
+  .then((answer) => {
+    answers.push(answer);
+    return rlp.questionAsync('Who is your second favorite instructor at LHL?! ');
   })
   .then((answer) => {
     answers.push(answer);

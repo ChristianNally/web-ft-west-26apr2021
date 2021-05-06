@@ -1,9 +1,9 @@
-const monkeyfuzz = require('./promise-generator');
+console.log('start of main thread.');
 
-const returnPromise = monkeyfuzz.returnPromise;
+const promiseGenerator = require('./promise-generator');
+const promise = promiseGenerator.returnPromise('first promise', 4444);
 
-const promise = returnPromise('first promise', 4444);
-console.log(promise);
+// console.log(promise);
 
 
 // Not the best way to do this
@@ -18,11 +18,11 @@ console.log(promise);
 
 promise
   .then((data) => {
-    console.log(data);
+    console.log('data:',data);
     return 'another thing';
   })
-  .then((data) => {
-    console.log("monkeyfuzz",data);
+  .then((data2) => {
+    console.log("monkeyfuzz:",data2);
   });
 
-  
+console.log('end of main thread.');
