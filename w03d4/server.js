@@ -15,7 +15,7 @@ app.use(morgan('dev'));
 app.use(express.static('public'));
 
 app.use(cookieSession({
-  name: 'cookiemonster',
+  name: 'monkeyfuzz',
   keys: ['my secret key', 'yet another secret key']
 }));
 

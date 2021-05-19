@@ -13,6 +13,7 @@ html {
 
 .container {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: space-between;
   background-color: grey;
   height: 70vh;
@@ -20,7 +21,7 @@ html {
 
 .smiley {
   display: flex;
-  align-items: center;
+  justify-content: center;
   font-size: 4rem;
   border: 1px solid black;
 }
@@ -32,6 +33,7 @@ html {
 </head>
 <body>
   <main class="container">
+    <div class="smiley smiley-0">&#128512</div>
     <div class="smiley smiley-1">&#128512</div>
     <div class="smiley smiley-2">&#128513</div>
     <div class="smiley smiley-3">&#128514</div>

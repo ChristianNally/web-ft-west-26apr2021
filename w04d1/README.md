@@ -15,12 +15,12 @@
 
 # Box Model
 
-[] Almost every HTML element can be represented by a box ('Web Developer extension')
-[] The BOX Model fiddle and Dev Tools: https://jsfiddle.net/ChristianNally/rkcs60x7
-[] width, height, padding, border, margin
-[] MDN CSS Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-[] What is the 'size' of a box? depends on the 'box-sizing' property.
-[] Check out http://guyroutledge.github.io/box-model/
+[x] Almost every HTML element can be represented by a box ('Web Developer extension')
+[x] The BOX Model fiddle and Dev Tools: https://jsfiddle.net/ChristianNally/rkcs60x7
+[x] width, height, padding, border, margin
+[x] MDN CSS Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+[x] What is the 'size' of a box? depends on the 'box-sizing' property.
+[x] Check out http://guyroutledge.github.io/box-model/
 
 # Element Layout
 
