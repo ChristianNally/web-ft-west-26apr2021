@@ -250,6 +250,7 @@ header {
 
 ### Useful Links
 * [MDN: CSS Preprocessor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)
+* [Font Size Selector](https://type-scale.com/)
 * [What is the viewport?](https://www.w3schools.com/css/css_rwd_viewport.asp)
 * [W3 Schools: Meta Tags](https://www.w3schools.com/tags/tag_meta.asp)
 * [MDN: CSS Values and Units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
